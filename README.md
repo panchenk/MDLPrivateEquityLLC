@@ -12,7 +12,7 @@ This repository contains the code for MDL Private Equity LLC (Desmond Lewis)
 <li> EXECUTIVE SUMMARY: все скопировать, должно быть просто.</li>
 <li> PORTFOLIO: все скопировать, должно быть просто.</li>
 <li> MEMBERS: все скопировать, должно быть просто.</li>
-<li> CONTACT: все спопировать: карту, форму (name, email address, subject, message, submit), по нажатию кнопки submit, js код должен правильно ли оформлен (например <a href="https://stackoverflow.com/questions/46155/how-to-validate-email-address-in-javascript">вот так</a>).</li>
+<li> CONTACT: все спопировать: карту, форму (name, email address, subject, message, submit), по нажатию кнопки submit, js код должен   проверить правильно ли оформлен email address (например <a href="https://stackoverflow.com/questions/46155/how-to-validate-email-address-in-javascript">вот так</a>).</li>
 </ol>
 <li> Использовать HTML+CSS+JS+Bootstrap
 </ol>
