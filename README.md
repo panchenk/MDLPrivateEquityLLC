@@ -6,7 +6,7 @@ This repository contains the code for MDL Private Equity LLC (Desmond Lewis)
 <ol type="1">
 <li> Нужно приблезительно скопировать шрифты, цвета, картинки, дательность не обязательна.</li>
 <li> Скопировать только вкладки HOME, HOW TO BE CONSIDERED, EXECUTIVE SUMMARY, PORTFOLIO, MEMBERS и CONTACT </li>
-<ol>
+<ol type="1">
 <li> HOME: все скопировать, должно быть просто.</li>
 <li> HOW TO BE CONSIDERED: все скопировать, виджет <b>For Entrepreneurs</b> (слева) не нужен</li>
 <li> EXECUTIVE SUMMARY: все скопировать, должно быть просто.</li>
