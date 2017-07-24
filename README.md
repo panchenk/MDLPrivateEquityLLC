@@ -15,5 +15,5 @@ This repository contains the code for MDL Private Equity LLC (Desmond Lewis)
 <li> CONTACT: все спопировать: Google карту, форму (name, email address, subject, message, submit), по нажатию кнопки submit, js код должен   проверить правильно ли оформлен email address (например <a href="https://stackoverflow.com/questions/46155/how-to-validate-email-address-in-javascript">вот так</a>). </li>
 </ol>
 <li> Использовать HTML+CSS+JS+Bootstrap</li>
-<li> Если поможет, можно использовать код который загружен в папку version1 </li>
+<li> Если поможет, можно использовать код который загружен в папку <a href=" https://panchenk.github.io/MDLPrivateEquityLLC/version1/index.html">version1</a> </li>
 </ol>
