@@ -10,6 +10,13 @@
     /* font-weight: 300; */
     src: url(../fonts/FuturaPTLight.otf);
 }
+@font-face {
+    font-family: 'Futura PT Bold';
+    font-style: normal;
+    /* font-weight: 600; */
+    src: url(../fonts/FuturaPTHeavy.otf);
+}
+
 body {
     background-color: #f6f2ea;
     color: #777;
@@ -93,7 +100,8 @@ img {
 
 .bold
 {
-    font-weight: 900 !important;
+    font-family: 'Futura PT Bold';
+    font-size: 13px;
 }
 
 .centered-image
