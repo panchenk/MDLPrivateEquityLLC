@@ -2,6 +2,10 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+b
+{
+    font-weight: bold !important;;
+}
 
 html,
 body,
@@ -37,21 +41,16 @@ s,
 samp,
 small,
 strike,
-strong,
 sub,
 sup,
 tt,
 var,
-b,
 u,
 i,
 center,
 dl,
 dt,
 dd,
-ol,
-ul,
-li,
 fieldset,
 form,
 label,
@@ -110,10 +109,7 @@ section {
 body {
     line-height: 1;
 }
-ol,
-ul {
-    list-style: none;
-}
+
 blockquote,
 q {
     quotes: none;
@@ -129,3 +125,4 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+

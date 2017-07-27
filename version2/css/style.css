@@ -1,13 +1,13 @@
 @font-face {
     font-family: 'Open Sans';
     font-style: normal;
-    font-weight: 300;
+    /* font-weight: 300; */
     src: url(../fonts/DXI1ORHCpsQm3Vp6mXoaTegdm0LZdjqr5-oayXSOefg.woff2);
 }
 @font-face {
     font-family: 'Futura PT';
     font-style: normal;
-    font-weight: 300;
+    /* font-weight: 300; */
     src: url(../fonts/FuturaPTLight.otf);
 }
 body {
@@ -89,4 +89,23 @@ img {
 }
 .bottomNav>ul>li {
     display: inline-block;
+}
+
+.bold
+{
+    font-weight: 900 !important;
+}
+
+.centered-image
+{
+    display: block;
+    margin: 0 auto !important; 
+    max-height: 100px;
+    width: auto !important;
+}
+
+.image-caption
+{
+    text-align: center; 
+    margin-bottom: 0px
 }
