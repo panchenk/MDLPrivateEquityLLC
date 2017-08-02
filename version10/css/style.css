@@ -1,0 +1,125 @@
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    /* font-weight: 300; */
+    src: url(../fonts/DXI1ORHCpsQm3Vp6mXoaTegdm0LZdjqr5-oayXSOefg.woff2);
+}
+@font-face {
+    font-family: 'Futura PT';
+    font-style: normal;
+    /* font-weight: 300; */
+    src: url(../fonts/FuturaPTLight.otf);
+}
+@font-face {
+    font-family: 'Futura PT Bold';
+    font-style: normal;
+    /* font-weight: 600; */
+    src: url(../fonts/FuturaPTHeavy.otf);
+}
+
+body {
+    background-color: #f6f2ea;
+    color: #777;
+}
+img {
+    max-width: 100%;
+}
+.header {
+    padding-bottom: 11px;
+}
+.main-nav {
+    margin-top: 5px;
+}
+.main-nav a,
+.bottomNav a {
+    font-family: 'Futura PT';
+    font-size: 13px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 3.4px;
+    font-weight: 400;
+    color: #999;
+    padding: 0 15px;
+}
+.active-link a,
+.main-nav a:hover,
+.bottomNav a:hover {
+    color: #111;
+}
+.siteNav {
+    text-align: right;
+}
+.siteNav>li {
+    display: inline-block;
+}
+.main-nav li:last-child a {
+    padding-right: 0;
+}
+.wrapper {
+    box-shadow: 0 0 40px rgba(0, 0, 0, .05);
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 50px;
+    box-sizing: border-box;
+    background-color: #fff;
+    font-family: 'Open Sans';
+    font-size: 13px;
+    line-height: 1.6em;
+}
+.wrapper p {
+    margin: 0 0 1em;
+}
+.content {
+    border-bottom: 1px solid #e4e4e4;
+    border-top: 1px solid #e4e4e4;
+    padding-bottom: 15px;
+}
+.content img {
+    width: 100%;
+    margin: 13px 0 29px;
+}
+.content a {
+    font-weight: 600;
+    color: #78260c;
+    text-decoration: none;
+}
+.content a:hover {
+    color: #444;
+}
+.footer {
+    margin-top: 13px;
+    height: 117px;
+}
+.bottomNav>ul {
+    text-align: center;
+    line-height: 2em;
+}
+.bottomNav>ul>li {
+    display: inline-block;
+}
+
+.bold
+{
+    font-family: 'Futura PT Bold';
+    font-size: 13px;
+}
+
+.centered-image
+{
+    display: block;
+    margin: 0 auto !important; 
+    max-height: 100px;
+    width: auto !important;
+}
+
+.image-caption
+{
+    text-align: center; 
+    margin-bottom: 0px
+}
+
+span
+{
+    font-family: 'Futura PT Bold';
+    font-size: 13px;
+}
