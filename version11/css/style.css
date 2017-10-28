@@ -19,7 +19,7 @@
 
 body {
     background-color: #f6f2ea;
-    color: #777;
+    color: #000;
 }
 img {
     max-width: 100%;
@@ -33,7 +33,7 @@ img {
 .main-nav a,
 .bottomNav a {
     font-family: 'Futura PT';
-    font-size: 13px;
+    font-size: 1.1em;
     text-transform: uppercase;
     text-decoration: none;
     letter-spacing: 3.4px;
@@ -63,7 +63,7 @@ img {
     box-sizing: border-box;
     background-color: #fff;
     font-family: 'Open Sans';
-    font-size: 13px;
+    font-size: 1.1em;
     line-height: 1.6em;
 }
 .wrapper p {
@@ -101,7 +101,7 @@ img {
 .bold
 {
     font-family: 'Futura PT Bold';
-    font-size: 13px;
+    font-size: 1.1em;
 }
 
 .centered-image
@@ -121,5 +121,5 @@ img {
 span
 {
     font-family: 'Futura PT Bold';
-    font-size: 13px;
+    font-size: 1.1em;
 }
