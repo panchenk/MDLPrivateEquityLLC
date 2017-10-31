@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Melting Pot Solutions LLC">
+
+    <title>MDL Private Equity</title>
+
+    <!-- Reset CSS -->
+    <link href="css/reset.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+        <script type="text/javascript">
+        (function(){
+            emailjs.init("user_HYTJQkYjEoj6NyemqqK15");
+        })();
+    </script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- Header -->
+        <header class="header">
+            <div id="logo">
+                <h1 style="font-size: 2rem; margin-bottom: 5px;">MDL Private Equity</h1>
+                <h1 style="margin-top: 0%; font-size: 1.5rem;">Small Business Funding, Advice And More</h1>
+            </div>
+            <nav class="main-nav">
+                <ul class="siteNav">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class="active-link">
+                        <a href="how_to_be_considered.html">How To Be Considered</a>
+                    </li>
+                    <li>
+                        <a href="members.html">Our Team</a>
+                    </li>
+                    <li>
+                        <a href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Page Content -->
+        <div class="content" style="font-size: 1em !important">
+            <div class="container" style="width: 100%; margin-top: 2%;">
+                <div class="row">
+
+                    <div class="col-xs-12 col-sm-6">
+                        <span>MDL Private Equity, LLC</span>
+                        <!-- <p>
+                            c/o Cornerstone Advisory Partners<br>
+                            1904 Eastwood Rd, Suite 203 <br>
+                            Wilmington, NC  28403 <br>
+                        </p> -->
+                        <!-- <span>Office</span> -->
+                        <p>
+                            E-mail Address: <a href = 'mailto:MDLPrivateEquity@yahoo.com'>MDLPrivateEquity@yahoo.com</a><br>
+                            Phone: <a href="tel:803.422.7001">803.422.7001</a> <br>
+                        </p>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-6">
+                        <div id="googleMap" style="width:100%;height:400px;"></div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row" style="margin-top: 2%;">
+                    <div class="alert alert-success hidden " id="email_sent"  role="alert">Your email was sent! We'll be in touch shortly!</div>
+            </div>
+
+            <div id="email_form"> 
+                <div class="form-group">
+                    <label>Full Name:</label>
+                    <input type="text" class="form-control" id="name">
+                </div>
+                <div class="form-group">
+                    <label >Email address:</label>
+                    <input type="email" class="form-control" id="email">
+                </div>
+                <div class="form-group">
+                    <label >Message:</label>
+                    <input type="textarea" class="form-control" id="message" >
+                </div>
+                <button  class="btn btn-default" id="submit">Submit</button>
+            </div> 
+        </div>
+
+
+        <!-- Footer -->
+        <!-- <footer class="footer">
+            <nav class="bottomNav">
+                <ul>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="http://www.imafwestern.com/">IMAF West</a></li>
+                    <li><a href="http://www.imaf-rtp.com/">IMAF RTP</a></li>
+                    <li><a href="http://www.imaftriad.com/">IMAF Triad</a></li>
+                    <li><a href="http://www.imafeast.com/">IMAF East</a></li>
+                    <li><a href="http://www.imafcharlotte.com/">IMAF Charlotte</a></li>
+                    <li><a href="http://www.imaf-sandhills.com/">IMAF Sandhills</a></li>
+                    <li><a href="http://www.nccapitalhighway.com/">NC Capital Highway</a></li>
+                </ul>
+            </nav>
+        </footer> -->
+    </div>
+
+
+
+    <script>
+        function myMap() 
+        {
+            var mapProp= 
+            {
+                center:new google.maps.LatLng(33.989557,-81.0314127),
+                zoom:15,
+            };
+            var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+            var marker = new google.maps.Marker({position: new google.maps.LatLng(33.989557,-81.0314127)});
+            marker.setMap(map);
+        }
+
+        $("#submit").click
+        (function()
+        {
+            
+            var name = $('#name').val();
+            var email = $('#email').val();
+            var message = $('#message').val();
+
+            emailjs.send("default_service","email_for_desmond",{from_name: name, email: email, message: message});
+            $("#email_sent").toggleClass("hidden");
+            $("#email_form").toggleClass("hidden");
+            $("#email_sent").fadeOut(5000);
+
+        });
+    </script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyACB1elC3iUpBJ4vehLA9s0XvWzBkBqKVg&callback=myMap"></script>
+    
+
+
+</body>
+
+</html>
+
